@@ -12,7 +12,7 @@ public class Lab1 {
         //Object o = null;
         //o.toString();
        // System.out.println(1.0/0);
-        throw new ArithmeticException();
+        throw new RuntimeException();
 
 
     }
