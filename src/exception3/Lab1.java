@@ -9,9 +9,10 @@ public class Lab1 {
         //System.out.println(s.charAt(3));
         //Object o = new Object();
         //String d = (String)o;
-        Object o = null;
-        o.toString();
-        System.out.println(1.0/0);
+        //Object o = null;
+        //o.toString();
+       // System.out.println(1.0/0);
+        throw new ArithmeticException();
 
 
     }
